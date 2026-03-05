@@ -404,7 +404,7 @@ def build_tools() -> list[Any]:
         - sessionId: 除 list 外必填
         说明：
         - poll: 返回从上次 poll 以来新增的 output，以及完成状态/exitCode
-        - log: 支持基于行的 offset/limit；offset<0 表示从末尾倒数",
+        - log: 支持基于行的 offset/limit；offset<0 表示从末尾倒数
         """
     )
     return [get_system_time, exec_tool, proc_tool]
